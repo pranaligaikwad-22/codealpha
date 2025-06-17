@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 40px;
+}
+
+.player {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.controls button {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background-color: #666;
+}
+
+#current-song {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
